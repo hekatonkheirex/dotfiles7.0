@@ -13,7 +13,8 @@ xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-on-ac-off -s 1
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-on-ac-sleep -s 0
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/blank-on-ac -s 0
 #i3lock -n -c 3a6ea5
-betterlockscreen -l dimblur
+light-locker &
+#betterlockscreen -l dimblur
 revert
 
 # make xflock4 use this script with the following setting:
