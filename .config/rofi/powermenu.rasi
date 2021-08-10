@@ -1,0 +1,42 @@
+* {
+    background-color:      #282c34;
+    border-color:          #abb2bf;
+    text-color:           #abb2bf;
+    font: "Ubuntu 12";
+}
+
+#window {
+    location: north east;
+    width: 800px;
+    padding: -6px 0px;
+    children: [horibox];
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [listview];
+}
+
+#listview {
+    layout: horizontal;
+    padding: 0px 0px;
+    spacing: 2px;
+    lines: 50;
+}
+
+#element {
+    margin: 2px 0px;
+    padding: 6px 4px;
+}
+ 
+#element selected {
+    background-color: #61afef;
+    text-color:       #282c34;
+}
+
+#button {
+    font: "Ubuntu 12";
+    text-color: @foreground;
+}
+
+

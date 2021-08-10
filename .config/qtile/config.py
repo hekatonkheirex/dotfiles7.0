@@ -439,8 +439,12 @@ screens = [
                         default_text = ' 󰐥 ',
                         padding = 2,
                         ),
+                    widget.TextBox(
+                        text = ' ',
+                        padding = 1,
+                    ),
                 ],
-            28,
+            24,
         ),
     ),
 ]
