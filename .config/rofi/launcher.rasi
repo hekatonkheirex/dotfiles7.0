@@ -1,8 +1,6 @@
-@import "colors.rasi"
-
-* {
-    background-color:       @lightbg;
-    text-color:             @lightfg;
+{
+    background-color:       #282a34;
+    text-color:             #abbf2b;
     font:                   "DejaVu Sans Mono 10";
 }
 
@@ -16,7 +14,7 @@ window {
     children:               [ horibox ];
     border-radius:          12px;
     border:                 4px 20px;
-    border-color:           @background;
+    border-color:           #282a34;
 
 
 }
@@ -37,7 +35,7 @@ listview {
 }
 
 entry {
-    text-color:         @foreground;
+    text-color:         #abbfb2;
     padding:            2px 18px;
     expand:             false;
     width:              10em;
@@ -50,7 +48,7 @@ element {
 }
 element selected {
     padding:            4px 4px;
-    text-color:         @background;
-    background-color:   @foreground;
+    text-color:         #282a34;
+    background-color:   #abbfb2;
     border-radius:      12px;
 }

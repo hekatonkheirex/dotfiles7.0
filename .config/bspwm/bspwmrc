@@ -3,8 +3,14 @@
 export EDITOR=nvim
 export QT_QPA_PLATFORMTHEME="qt5ct"  
 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+fcitx5 &
+
 xinput --set-prop "ELAN1300:00 04F3:3087 Touchpad" "libinput Natural Scrolling Enabled" 1 &
-setxkbmap -option grp:alt_shift_toggle us,es &
+#setxkbmap -option grp:alt_shift_toggle us,es &
 xsetroot -cursor_name left_ptr &
 unclutter &
 light -S 50 &

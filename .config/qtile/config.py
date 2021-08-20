@@ -327,37 +327,31 @@ screens = [
                 ),
                 widget.Spacer(
                 ),
-                widget.WidgetBox(
-                    text_closed = '󰅁',
-                    text_open = '󰅂',
-                    widgets=[
-                        widget.CPU(
-                            format = 'CPU:{load_percent}%',
-                            foreground = colors[2],
-                        ),
-                        widget.Sep(
-                            padding = 4,
-                            foreground = colors[0],
-                        ),
-                        widget.Memory(
-                            format = 'Mem:{MemUsed: .0f}M',
-                            measure_mem = 'M',
-                            update_interval = 1.0,
-                            foreground = colors[2],
-                        ),
-                        widget.Sep(
-                            padding = 4,
-                            foreground = colors[0],
-                        ),
-                        widget.TextBox(
-                            text = 'Temp:',
-                            padding = 1,
-                            foreground = colors[2],
-                        ),
-                        widget.ThermalSensor(
-                            foreground = colors[2],
-                        ),
-                    ],
+                widget.CPU(
+                    format = 'CPU:{load_percent}%',
+                    foreground = colors[2],
+                ),
+                widget.Sep(
+                    padding = 4,
+                    foreground = colors[0],
+                ),
+                widget.Memory(
+                    format = 'Mem:{MemUsed: .0f}M',
+                    measure_mem = 'M',
+                    update_interval = 1.0,
+                    foreground = colors[2],
+                ),
+                widget.Sep(
+                    padding = 4,
+                    foreground = colors[0],
+                ),
+                widget.TextBox(
+                    text = 'Temp:',
+                    padding = 1,
+                    foreground = colors[2],
+                ),
+                widget.ThermalSensor(
+                    foreground = colors[2],
                 ),
                 widget.Sep(
                     padding = 4,
