@@ -1,7 +1,7 @@
 * {
-    background-color:      #282c34;
-    border-color:          #abb2bf;
-    text-color:           #abb2bf;
+    background-color:      #282828;
+    border-color:          #ebdbb2;
+    text-color:           #ebdbb2;
     font: "Ubuntu 12";
 }
 
@@ -30,8 +30,8 @@
 }
  
 #element selected {
-    background-color: #61afef;
-    text-color:       #282c34;
+    background-color: #d79921;
+    text-color:       #282828;
 }
 
 #button {

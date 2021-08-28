@@ -65,20 +65,20 @@ Plug 'dylanaraps/wal.vim'
 " Initialize plugin system
 call plug#end()
 
-"let g:gruvbox_contrast_dark = 'medium'
+let g:gruvbox_contrast_dark = 'medium'
 let g:airline_powerline_fonts = 1
 "let g:colors_name = "monokai"
-"let g:gruvbox_italic=1
+let g:gruvbox_italic=1
 "let g:colors_name = "dracula"
-let g:onedark_hide_endofbuffer = 1
-let g:onedark_terminal_italics = 1
+"let g:onedark_hide_endofbuffer = 1
+"let g:onedark_terminal_italics = 1
 au ColorScheme * hi Normal ctermbg=None
 "colorscheme nord
 "colorscheme dracula
 "colorscheme wal
 "colorscheme monokai
-"colorscheme gruvbox
-colorscheme onedark
+colorscheme gruvbox
+"colorscheme onedark
 "let g:tokyonight_style = 'night' " available: night, storm
 "let g:tokyonight_enable_italic = 1
 "colorscheme tokyonight

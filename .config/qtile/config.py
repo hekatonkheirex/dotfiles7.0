@@ -231,14 +231,14 @@ for i in groups:
 layout_theme = {
     "border_width": 2,
     "margin": 15,
-    "border_focus": "98c379",
-    "border_normal": "282c34"
+    "border_focus": "98971a",
+    "border_normal": "282828"
 }
 
 layouts = [
     layout.MonadTall(
-        border_focus = '98c379',
-        border_normal = '282c34',
+        border_focus = '98971a',
+        border_normal = '282828',
         border_width = 2,
         margin = 15,
         ratio = 0.52,
@@ -250,8 +250,8 @@ layouts = [
         **layout_theme
     ),
     layout.Floating(
-        border_focus = '98c379',
-        border_normal = '282c34',
+        border_focus = '98971a',
+        border_normal = '282828',
         border_width = 2,
         fullscreen_border_width = 0,
     ),
@@ -267,18 +267,18 @@ layouts = [
 ]
 
 ## Colors definitions ##
-colors = [["#282c34", "#282c34"], # 0 Background 0
-          ["#3d4148", "#3d4148"], # 1 Background 1
-          ["#abb2bf", "#abb2bf"], # 2 Foreground 0
-          ["#99a0ab", "#99a0ab"], # 3 Foreground 1
-          ["#e06c75", "#e06c75"], # 4 Red
-          ["#98c379", "#98c379"], # 5 Green
-          ["#e5c07b", "#e5c07b"], # 6 Yellow
-          ["#61afef", "#61afef"], # 7 Blue
-          ["#c678dd", "#c678dd"], # 8 Magenta
-          ["#56b6c2", "#56b6c2"], # 9 Cyan
-          ["#eea243", "#eea243"], # 10 Orange
-          ["#ab87ff", "#ab87ff"], # 11 Violet
+colors = [["#282828", "#282828"], # 0 Background 0
+          ["#3c3836", "#3c3836"], # 1 Background 1
+          ["#fbf1c7", "#fbf1c7"], # 2 Foreground 0
+          ["#ebdbb2", "#ebdbb2"], # 3 Foreground 1
+          ["#cc241d", "#cc241d"], # 4 Red
+          ["#98971a", "#98971a"], # 5 Green
+          ["#d79921", "#d79921"], # 6 Yellow
+          ["#458588", "#458588"], # 7 Blue
+          ["#b16286", "#b16286"], # 8 Magenta
+          ["#689d6a", "#689d6a"], # 9 Cyan
+          ["#d65d0e", "#d65d0e"], # 10 Orange
+          ["#8f3f71", "#8f3f71"], # 11 Violet
         ]
 
 
@@ -289,8 +289,8 @@ widget_defaults = dict(
     font = 'scientifica',
     fontsize = 14,
     padding = 1,
-    background = '#282c34',
-    foreground = '#abb2bf',
+    background = '#282828',
+    foreground = '#ebdbb2',
 )
 
 extension_defaults = widget_defaults.copy()
@@ -435,6 +435,7 @@ screens = [
                 ),
             ],
             24,
+            margin=[15, 15, 0, 15],
         ),
     ),
 ]
@@ -442,17 +443,17 @@ screens = [
 ## Drag floating layouts ##
 mouse = [
         Drag(
-            [mod], "Button1", 
+            [mod], "Button1",
             lazy.window.set_position_floating(),
             start=lazy.window.get_position()
             ),
         Drag(
-            [mod], "Button3", 
+            [mod], "Button3",
             lazy.window.set_size_floating(),
             start=lazy.window.get_size()
             ),
         Click(
-            [mod], "Button2", 
+            [mod], "Button2",
             lazy.window.bring_to_front()
             )
 ]
@@ -465,8 +466,8 @@ follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(
-    border_focus = 'e5c07b',
-    border_normal = '282c34',
+    border_focus = 'b16286',
+    border_normal = '282828',
     border_width = 2,
     fullscreen_border_width = 0,
     float_rules=[
