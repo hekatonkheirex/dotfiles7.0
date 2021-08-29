@@ -1,15 +1,17 @@
 * {
-    background-color:      #282828;
-    border-color:          #ebdbb2;
-    text-color:           #ebdbb2;
-    font: "Ubuntu 12";
+    background-color:      #282c34;
+    border-color:          #abb2bf;
+    text-color:           #abb2bf;
+    font: "Ubuntu 10";
 }
 
 #window {
     location: north east;
-    width: 800px;
+    width: 344px;
     padding: -6px 0px;
     children: [horibox];
+    x-offset: -188;
+    y-offset: 17;
 }
 
 #horibox {
@@ -30,8 +32,8 @@
 }
  
 #element selected {
-    background-color: #d79921;
-    text-color:       #282828;
+    background-color: #61afef;
+    text-color:       #282c34;
 }
 
 #button {
