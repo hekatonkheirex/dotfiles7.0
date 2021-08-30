@@ -10,7 +10,6 @@ configuration {
 
 * {
     background-color:      #282c34;
-    border-color:          #abb2bf;
     text-color:           #abb2bf;
     font:            "Ubuntu 10";
 }
@@ -46,5 +45,4 @@ element {
 }
 element selected {
     background-color: #61afef;
-    text-color:       #282c34;
 }

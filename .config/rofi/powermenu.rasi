@@ -10,7 +10,7 @@
     width: 344px;
     padding: -6px 0px;
     children: [horibox];
-    x-offset: -188;
+    x-offset: -15;
     y-offset: 17;
 }
 
