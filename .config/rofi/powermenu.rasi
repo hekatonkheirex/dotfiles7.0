@@ -39,7 +39,7 @@ window {
     anchor:           north east;
     background-color: var(background);
     x-offset:         -15;
-    y-offset:         16;
+    y-offset:         15;
     border:           1;
 }
 
@@ -50,7 +50,7 @@ horibox {
 
 listview {
     fixed-height: 0;
-    padding:      0px 0px 0px ;
+    padding:      2px 0px 0px ;
     scrollbar:    true;
     lines:        50;
     border-color: var(separatorcolor);
