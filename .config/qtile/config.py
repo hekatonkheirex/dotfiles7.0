@@ -148,7 +148,7 @@ keys = [
     ),
     Key(
         [mod], "d",
-        lazy.spawn('rofi -show drun -config ~/.config/rofi/backup/config.rasi'),
+        lazy.spawn('rofi -show drun -theme ~/.config/rofi/backup/config.rasi'),
         desc="Spawn rofi"
     ),
 
